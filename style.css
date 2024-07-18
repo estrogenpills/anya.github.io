@@ -11,6 +11,18 @@ html {
     color: #cdd6f4
 }
 
+a:link {
+  color: #f5c2e7;
+}
+
+a:visited {
+  color: #cba6f7;
+}
+
+::selection {
+  color: #11111b;
+  background: #f5c2e7;
+}
 
 body {
     font-family: monospace;
