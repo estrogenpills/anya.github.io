@@ -4,7 +4,6 @@ h3, p {
 }
 
 
-/* Set rem font size */
 html {
     font-size: 24px;
     background-color: #11111b;
@@ -44,3 +43,9 @@ body {
     background-color: #1e1e2e
 }
 
+/* Mobile changes */
+@media (max-width : 768px) {
+    html, body {
+        font-size: 16px;
+    }
+}
